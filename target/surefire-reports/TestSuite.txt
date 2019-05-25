@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.612 sec <<< FAILURE! - in TestSuite
+tc001_generatenumber(com.random.tests.GenerateNumberTest)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.FluentWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:88)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:103)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:57)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.isDisplayed(<generated>)
+	at com.random.pages.GenerateNumberPage.generateRandomNumber(GenerateNumberPage.java:45)
+	at com.random.tests.GenerateNumberTest.tc001_generatenumber(GenerateNumberTest.java:30)
+

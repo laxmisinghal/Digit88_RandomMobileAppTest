@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SanityTest]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.random.listeners.CustomListeners"/>
+  </listeners>
+  <test name="GenerateNumberTest(failed)">
+    <classes>
+      <class name="com.random.tests.GenerateNumberTest">
+        <methods>
+          <include name="tc001_generatenumber"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- com.random.tests.GenerateNumberTest -->
+    </classes>
+  </test> <!-- GenerateNumberTest(failed) -->
+</suite> <!-- Failed suite [SanityTest] -->

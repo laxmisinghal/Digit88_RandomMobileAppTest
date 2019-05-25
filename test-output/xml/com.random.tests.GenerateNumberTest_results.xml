@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GenerateNumberTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.797">
+  <properties />
+  
+  
+            <testcase name="tc001_generatenumber" time="13.797" classname="com.random.tests.GenerateNumberTest" />
+      
+</testsuite>

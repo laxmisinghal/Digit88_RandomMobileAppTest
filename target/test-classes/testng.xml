@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanityTest">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="com.random.listeners.CustomListeners"/>
+      
+  </listeners>  
+	
+	<test name="GenerateNumberTest">
+		<classes>
+			<class name="com.random.tests.GenerateNumberTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

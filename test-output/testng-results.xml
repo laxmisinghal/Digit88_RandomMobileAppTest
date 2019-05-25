@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Click to see screenshots]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=44357>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=44357><img src=44357 height=200 width=200> </img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="SanityTest" duration-ms="22231" started-at="2019-05-25T05:50:22Z" finished-at="2019-05-25T05:50:45Z">
+    <groups>
+    </groups>
+    <test name="GenerateNumberTest" duration-ms="22231" started-at="2019-05-25T05:50:22Z" finished-at="2019-05-25T05:50:45Z">
+      <class name="com.random.tests.GenerateNumberTest">
+        <test-method status="PASS" signature="setUpAppium()[pri:0, instance:com.random.tests.GenerateNumberTest@971d0d8]" name="setUpAppium" is-config="true" duration-ms="13774" started-at="2019-05-25T05:50:09Z" finished-at="2019-05-25T05:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAppium -->
+        <test-method status="PASS" signature="setUpPage()[pri:0, instance:com.random.tests.GenerateNumberTest@971d0d8]" name="setUpPage" is-config="true" duration-ms="228" started-at="2019-05-25T05:50:22Z" finished-at="2019-05-25T05:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method status="PASS" signature="tc001_generatenumber(java.lang.String, java.lang.String, org.json.simple.JSONObject)[pri:0, instance:com.random.tests.GenerateNumberTest@971d0d8]" name="tc001_generatenumber" duration-ms="13797" started-at="2019-05-25T05:50:23Z" data-provider="fetchData_JSON" finished-at="2019-05-25T05:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GenerateNumberTest.01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Generate Number Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"description":"Generate Number Test","rowID":"GenerateNumberTest.01"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see screenshots]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=44357>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=44357><img src=44357 height=200 width=200> </img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001_generatenumber -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:com.random.tests.GenerateNumberTest@971d0d8]" name="restartApp" is-config="true" duration-ms="5010" started-at="2019-05-25T05:50:40Z" finished-at="2019-05-25T05:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="tearDownAppium()[pri:0, instance:com.random.tests.GenerateNumberTest@971d0d8]" name="tearDownAppium" is-config="true" duration-ms="3034" started-at="2019-05-25T05:50:45Z" finished-at="2019-05-25T05:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAppium -->
+      </class> <!-- com.random.tests.GenerateNumberTest -->
+    </test> <!-- GenerateNumberTest -->
+  </suite> <!-- SanityTest -->
+</testng-results>

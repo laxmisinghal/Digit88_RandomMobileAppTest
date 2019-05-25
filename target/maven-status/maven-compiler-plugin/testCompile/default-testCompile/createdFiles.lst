@@ -1,0 +1,10 @@
+com\random\testbase\TestBase.class
+com\random\utilities\JSONDataProvider.class
+com\random\pages\GenerateNumberPage.class
+com\random\listeners\CustomListeners.class
+com\random\utilities\WaitConfig.class
+com\random\utilities\GetScreenShot.class
+com\random\tests\GenerateNumberTest.class
+com\random\utilities\ExtentManager.class
+com\random\utilities\RandomConstants.class
+com\random\pages\Base.class
